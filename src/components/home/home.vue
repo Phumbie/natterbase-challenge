@@ -21,7 +21,7 @@ export default {
 <style scoped>
 .home {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
 }
 </style>
