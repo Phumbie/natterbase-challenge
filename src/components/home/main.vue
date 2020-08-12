@@ -2,15 +2,17 @@
   <div class="main">
     <Navbar />
     <div class="body">
-      <!-- <h1>Helo</h1> -->
+      <Homebody />
     </div>
   </div>
 </template>
 <script>
 import Navbar from "../layouts/navbar";
+import Homebody from "./body";
 export default {
   components: {
     Navbar,
+    Homebody,
   },
 };
 </script>
@@ -20,8 +22,9 @@ export default {
   width: 100%;
 }
 .body {
-  background: #2d2d2d;
-  opacity: 0.04;
-  height: calc(100% - 6rem);
+  background: rgba(45, 45, 45, 0.04);
+  /* opacity: 0.04; */
+  height: calc(100vh - 6rem);
+  overflow-y: auto;
 }
 </style>

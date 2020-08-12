@@ -167,7 +167,7 @@
                 fill="#00B394"
               />
             </svg>
-            <div class="profile-picture d-flex my-auto mr-3">
+            <div class="profile-picture d-flex my-auto">
               <img
                 class="my-auto mr-2"
                 style="height:100%; width: 100%"
@@ -194,6 +194,9 @@ export default {};
   height: 6rem;
   background-color: white;
   padding: 1rem;
+  /* position: fixed; */
+  /* right: 6rem; */
+  /* width: calc(100%-7rem); */
   /* width: 100%; */
   /* width: calc(100% - 7rem); */
 }

@@ -5,9 +5,12 @@
 </template>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
 body {
   margin: 0;
   padding: 0;
+  font-family: "Nunito Sans", sans-serif;
 }
 /* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
