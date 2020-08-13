@@ -2,17 +2,27 @@
   <div class="main">
     <Navbar />
     <div class="body">
-      <Homebody />
+      <Modules v-if="nav" />
+      <div v-else>
+        <Test />
+      </div>
     </div>
   </div>
 </template>
 <script>
 import Navbar from "../layouts/navbar";
-import Homebody from "./body";
+import Modules from "./module";
+import Test from "./test/test.vue";
 export default {
   components: {
     Navbar,
-    Homebody,
+    Modules,
+    Test,
+  },
+  data() {
+    return {
+      nav: false,
+    };
   },
 };
 </script>
