@@ -5,7 +5,7 @@
       <div class="test-card">
         <div
           class="test-cases d-flex justify-content-between my-2"
-          :class="{'apply-border': show}"
+          :class="{ 'apply-border': show }"
           v-for="i in 30"
           :key="i"
         >
@@ -43,6 +43,7 @@ export default {
 p {
   /* font-weight: bold; */
   color: #03293d;
+  font-size: 0.9rem;
 }
 .tests {
   height: 85vh;

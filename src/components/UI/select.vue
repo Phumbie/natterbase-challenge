@@ -1,16 +1,10 @@
 <template>
   <div class="body">
-    <div class="select" :style="{background:bgColor}" @click="showSelect = !showSelect">
+    <div class="select" :style="{ background: bgColor }" @click="showSelect = !showSelect">
       <p class="text-white my-auto">
-        {{test}}
+        {{ test }}
         <span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="6"
-            height="4"
-            viewBox="0 0 6 4"
-            fill="none"
-          >
+          <svg xmlns="http://www.w3.org/2000/svg" width="6" height="4" viewBox="0 0 6 4" fill="none">
             <path d="M3 4L0 0.999823L1.00047 0L3 2.00035L4.99953 0L6 0.999823L3 4Z" fill="white" />
           </svg>
         </span>
@@ -85,12 +79,12 @@ p {
 .select {
   /* background-color: var(--success); */
   border-radius: 5px;
-  padding: 0.5rem 1.5rem;
-  border: 2px solid rgba(26, 12, 47, 0.5);
+  padding: 0.2rem 0;
+  border: 1px solid rgba(26, 12, 47, 0.5);
   height: 100%;
   cursor: pointer;
   position: relative;
-  width: 7rem;
+  width: 5rem;
   text-align: center;
   transition: all 0.5 linear;
   /* font-weight: bold; */

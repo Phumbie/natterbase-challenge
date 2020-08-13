@@ -2,7 +2,8 @@
   <div class>
     <h5 class="my-3">Modules</h5>
     <div class="modules">
-      <Module v-for="i in 20" :key="i" class />
+      <!-- <Module /> -->
+      <Module :items="backlogItems" />
     </div>
   </div>
 </template>
@@ -11,6 +12,19 @@ import Module from "../../addModules";
 export default {
   components: {
     Module,
+  },
+  data() {
+    return {
+      newBacklogItem: "",
+      backlogItems: ["Apply gredient colours on the dashboard sidenav"],
+    };
+  },
+  mounted() {
+    if (localStorage.backlogs) {
+      this.backlogItems = JSON.parse(localStorage.getItem("backlogs"));
+    } else {
+      localStorage.setItem("backlogs", JSON.stringify(this.backlogItems));
+    }
   },
 };
 </script>

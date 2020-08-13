@@ -1,30 +1,23 @@
 <template>
   <div class="nav d-flex align-items-center">
-    <div class="container-fluid">
-      <div class="row">
+    <div class="container-fluid d-flex">
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="20" viewBox="0 0 28 20" fill="none" class="my-auto">
+        <path
+          d="M27 0H1C0.734784 0 0.48043 0.105357 0.292893 0.292893C0.105357 0.48043 0 0.734784 0 1C0 1.26522 0.105357 1.51957 0.292893 1.70711C0.48043 1.89464 0.734784 2 1 2H27C27.2652 2 27.5196 1.89464 27.7071 1.70711C27.8946 1.51957 28 1.26522 28 1C28 0.734784 27.8946 0.48043 27.7071 0.292893C27.5196 0.105357 27.2652 0 27 0Z"
+          fill="#03293D"
+        />
+        <path
+          d="M1 11H14C14.2652 11 14.5196 10.8946 14.7071 10.7071C14.8946 10.5196 15 10.2652 15 10C15 9.73478 14.8946 9.48043 14.7071 9.29289C14.5196 9.10536 14.2652 9 14 9H1C0.734784 9 0.48043 9.10536 0.292893 9.29289C0.105357 9.48043 0 9.73478 0 10C0 10.2652 0.105357 10.5196 0.292893 10.7071C0.48043 10.8946 0.734784 11 1 11Z"
+          fill="#03293D"
+        />
+        <path
+          d="M23 18H1C0.734784 18 0.48043 18.1054 0.292893 18.2929C0.105357 18.4804 0 18.7348 0 19C0 19.2652 0.105357 19.5196 0.292893 19.7071C0.48043 19.8946 0.734784 20 1 20H23C23.2652 20 23.5196 19.8946 23.7071 19.7071C23.8946 19.5196 24 19.2652 24 19C24 18.7348 23.8946 18.4804 23.7071 18.2929C23.5196 18.1054 23.2652 18 23 18Z"
+          fill="#03293D"
+        />
+      </svg>
+      <div class="row flow my-auto">
         <div class="col-md-6">
           <div class="first-nav-items d-flex justify-content-around align-items-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="28"
-              height="20"
-              viewBox="0 0 28 20"
-              fill="none"
-            >
-              <path
-                d="M27 0H1C0.734784 0 0.48043 0.105357 0.292893 0.292893C0.105357 0.48043 0 0.734784 0 1C0 1.26522 0.105357 1.51957 0.292893 1.70711C0.48043 1.89464 0.734784 2 1 2H27C27.2652 2 27.5196 1.89464 27.7071 1.70711C27.8946 1.51957 28 1.26522 28 1C28 0.734784 27.8946 0.48043 27.7071 0.292893C27.5196 0.105357 27.2652 0 27 0Z"
-                fill="#03293D"
-              />
-              <path
-                d="M1 11H14C14.2652 11 14.5196 10.8946 14.7071 10.7071C14.8946 10.5196 15 10.2652 15 10C15 9.73478 14.8946 9.48043 14.7071 9.29289C14.5196 9.10536 14.2652 9 14 9H1C0.734784 9 0.48043 9.10536 0.292893 9.29289C0.105357 9.48043 0 9.73478 0 10C0 10.2652 0.105357 10.5196 0.292893 10.7071C0.48043 10.8946 0.734784 11 1 11Z"
-                fill="#03293D"
-              />
-              <path
-                d="M23 18H1C0.734784 18 0.48043 18.1054 0.292893 18.2929C0.105357 18.4804 0 18.7348 0 19C0 19.2652 0.105357 19.5196 0.292893 19.7071C0.48043 19.8946 0.734784 20 1 20H23C23.2652 20 23.5196 19.8946 23.7071 19.7071C23.8946 19.5196 24 19.2652 24 19C24 18.7348 23.8946 18.4804 23.7071 18.2929C23.5196 18.1054 23.2652 18 23 18Z"
-                fill="#03293D"
-              />
-            </svg>
-
             <svg
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -62,12 +55,7 @@
                 />
               </g>
               <defs>
-                <pattern
-                  id="pattern0"
-                  patternContentUnits="objectBoundingBox"
-                  width="1"
-                  height="1"
-                >
+                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
                   <use xlink:href="#image0" transform="translate(-0.025 -0.025) scale(0.00695364)" />
                 </pattern>
                 <image
@@ -85,14 +73,7 @@
         </div>
         <div class="col-md-6">
           <div class="d-flex align-items-center justify-content-end">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="25"
-              height="26"
-              viewBox="0 0 25 26"
-              fill="none"
-              class="mr-5"
-            >
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" viewBox="0 0 25 26" fill="none" class="mr-5">
               <path
                 d="M18 10C18 8.4087 17.3679 6.88258 16.2426 5.75736C15.1174 4.63214 13.5913 4 12 4C10.4087 4 8.88258 4.63214 7.75736 5.75736C6.63214 6.88258 6 8.4087 6 10C6 17 3 19 3 19H21C21 19 18 17 18 10Z"
                 stroke="#2D2D2D"
@@ -107,23 +88,9 @@
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
-              <circle
-                cx="19.0869"
-                cy="5.5"
-                r="4.5"
-                fill="#E13071"
-                stroke="#FCFCFC"
-                stroke-width="2"
-              />
+              <circle cx="19.0869" cy="5.5" r="4.5" fill="#E13071" stroke="#FCFCFC" stroke-width="2" />
             </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="74"
-              height="21"
-              viewBox="0 0 74 21"
-              fill="none"
-              class="mr-5"
-            >
+            <svg xmlns="http://www.w3.org/2000/svg" width="74" height="21" viewBox="0 0 74 21" fill="none" class="mr-5">
               <rect width="74" height="21" rx="5" fill="#4DBD98" />
               <rect width="74" height="21" rx="5" fill="#4DBD98" />
               <rect width="74" height="21" rx="5" fill="#4DBD98" />
@@ -141,14 +108,7 @@
               />
               <line opacity="0.15" x1="26.5" y1="6" x2="26.5" y2="16" stroke="#FCFCFC" />
             </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="25"
-              height="31"
-              viewBox="0 0 25 31"
-              fill="none"
-              class="mr-5"
-            >
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="31" viewBox="0 0 25 31" fill="none" class="mr-5">
               <ellipse cx="12.5345" cy="11.0095" rx="8.46888" ry="8.63826" fill="white" />
               <path
                 d="M14.5193 12.7697H10.7415L9.96984 14.5665H8.16156L11.8933 6.44651H13.333L17.0647 14.5665H15.291L14.5193 12.7697ZM13.9319 11.4106L12.6304 8.36996L11.3289 11.4106H13.9319Z"
@@ -168,15 +128,10 @@
               />
             </svg>
             <div class="profile-picture d-flex my-auto">
-              <img
-                class="my-auto mr-2"
-                style="height:100%; width: 100%"
-                src="@/assets/avatar.png"
-                alt
-              />
+              <img class="my-auto mr-2" style="height:100%; width: 100%" src="@/assets/avatar.png" alt />
               <div class="profile-name">
                 <h6>Chioma Davis</h6>
-                <small>Chioma@natterbase</small>
+                <small class="email">Chioma@natterbase</small>
               </div>
             </div>
           </div>
@@ -206,11 +161,21 @@ export default {};
   background-color: black;
 } */
 .input-search {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
   border-top: none;
   border-right: none;
   border-bottom: none;
   outline: none;
   border-left: 1px solid #2d2d2d;
+  background-image: url("../../assets/searchIcon.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.flow {
+  width: 100%;
+  /* margin-left: auto; */
+}
+.email {
+  color: #23b3e8;
 }
 </style>

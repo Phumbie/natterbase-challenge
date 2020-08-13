@@ -5,13 +5,7 @@
         <div class="task-title d-flex justify-content-between">
           <h5 class="my-auto">Backlog</h5>
           <div class="my-auto">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="11"
-              height="3"
-              viewBox="0 0 11 3"
-              fill="none"
-            >
+            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="3" viewBox="0 0 11 3" fill="none">
               <path
                 d="M6.125 1.5C6.125 1.15482 5.84518 0.875 5.5 0.875C5.15482 0.875 4.875 1.15482 4.875 1.5C4.875 1.84518 5.15482 2.125 5.5 2.125C5.84518 2.125 6.125 1.84518 6.125 1.5Z"
                 fill="#03293D"
@@ -36,35 +30,36 @@
             </svg>
           </div>
         </div>
-        <div class="add mb-3">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="9"
-            height="9"
-            viewBox="0 0 9 9"
-            fill="none"
-          >
+        <div class="add mb-3" @click="addNewBacklogItem">
+          <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9" fill="none">
             <path
               d="M9 5.14286H5.14286V9H3.85714V5.14286H0V3.85714H3.85714V0H5.14286V3.85714H9V5.14286Z"
               fill="#23B3E8"
             />
           </svg>
         </div>
+        <div class="text-module mb-3">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Add a new backlog"
+            v-model="newBacklogItem"
+          ></textarea>
+        </div>
         <div class="module-card">
-          <addModule v-for="i in 10" :key="i" />
+          <div v-if="backlogItems">
+            <addModule :items="backlogItems" />
+          </div>
+          <!-- <addModule :content="'Apply gredient colours on the dashboard sidenav'" /> -->
         </div>
       </div>
       <div>
         <div class="task-title d-flex justify-content-between">
           <h5 class="my-auto">Todo</h5>
           <div class="my-auto">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="11"
-              height="3"
-              viewBox="0 0 11 3"
-              fill="none"
-            >
+            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="3" viewBox="0 0 11 3" fill="none">
               <path
                 d="M6.125 1.5C6.125 1.15482 5.84518 0.875 5.5 0.875C5.15482 0.875 4.875 1.15482 4.875 1.5C4.875 1.84518 5.15482 2.125 5.5 2.125C5.84518 2.125 6.125 1.84518 6.125 1.5Z"
                 fill="#03293D"
@@ -90,13 +85,7 @@
           </div>
         </div>
         <div class="add">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="9"
-            height="9"
-            viewBox="0 0 9 9"
-            fill="none"
-          >
+          <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9" fill="none">
             <path
               d="M9 5.14286H5.14286V9H3.85714V5.14286H0V3.85714H3.85714V0H5.14286V3.85714H9V5.14286Z"
               fill="#23B3E8"
@@ -113,13 +102,7 @@
         <div class="task-title d-flex justify-content-between">
           <h5 class="my-auto">In Progress</h5>
           <div class="my-auto">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="11"
-              height="3"
-              viewBox="0 0 11 3"
-              fill="none"
-            >
+            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="3" viewBox="0 0 11 3" fill="none">
               <path
                 d="M6.125 1.5C6.125 1.15482 5.84518 0.875 5.5 0.875C5.15482 0.875 4.875 1.15482 4.875 1.5C4.875 1.84518 5.15482 2.125 5.5 2.125C5.84518 2.125 6.125 1.84518 6.125 1.5Z"
                 fill="#03293D"
@@ -145,13 +128,7 @@
           </div>
         </div>
         <div class="add">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="9"
-            height="9"
-            viewBox="0 0 9 9"
-            fill="none"
-          >
+          <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9" fill="none">
             <path
               d="M9 5.14286H5.14286V9H3.85714V5.14286H0V3.85714H3.85714V0H5.14286V3.85714H9V5.14286Z"
               fill="#23B3E8"
@@ -168,13 +145,7 @@
         <div class="task-title d-flex justify-content-between">
           <h5 class="my-auto">In Review</h5>
           <div class="my-auto">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="11"
-              height="3"
-              viewBox="0 0 11 3"
-              fill="none"
-            >
+            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="3" viewBox="0 0 11 3" fill="none">
               <path
                 d="M6.125 1.5C6.125 1.15482 5.84518 0.875 5.5 0.875C5.15482 0.875 4.875 1.15482 4.875 1.5C4.875 1.84518 5.15482 2.125 5.5 2.125C5.84518 2.125 6.125 1.84518 6.125 1.5Z"
                 fill="#03293D"
@@ -200,13 +171,7 @@
           </div>
         </div>
         <div class="add">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="9"
-            height="9"
-            viewBox="0 0 9 9"
-            fill="none"
-          >
+          <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9" fill="none">
             <path
               d="M9 5.14286H5.14286V9H3.85714V5.14286H0V3.85714H3.85714V0H5.14286V3.85714H9V5.14286Z"
               fill="#23B3E8"
@@ -223,13 +188,7 @@
         <div class="task-title d-flex justify-content-between">
           <h5 class="my-auto">Done</h5>
           <div class="my-auto">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="11"
-              height="3"
-              viewBox="0 0 11 3"
-              fill="none"
-            >
+            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="3" viewBox="0 0 11 3" fill="none">
               <path
                 d="M6.125 1.5C6.125 1.15482 5.84518 0.875 5.5 0.875C5.15482 0.875 4.875 1.15482 4.875 1.5C4.875 1.84518 5.15482 2.125 5.5 2.125C5.84518 2.125 6.125 1.84518 6.125 1.5Z"
                 fill="#03293D"
@@ -255,13 +214,7 @@
           </div>
         </div>
         <div class="add">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="9"
-            height="9"
-            viewBox="0 0 9 9"
-            fill="none"
-          >
+          <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9" fill="none">
             <path
               d="M9 5.14286H5.14286V9H3.85714V5.14286H0V3.85714H3.85714V0H5.14286V3.85714H9V5.14286Z"
               fill="#23B3E8"
@@ -276,13 +229,7 @@
       </div>
     </div>
     <div class="add-button">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="101"
-        height="101"
-        viewBox="0 0 101 101"
-        fill="none"
-      >
+      <svg xmlns="http://www.w3.org/2000/svg" width="101" height="101" viewBox="0 0 101 101" fill="none">
         <g filter="url(#filter0_d)">
           <circle cx="50.5" cy="47.5" r="40.5" fill="#23B3E8" />
         </g>
@@ -305,11 +252,7 @@
             color-interpolation-filters="sRGB"
           >
             <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feColorMatrix
-              in="SourceAlpha"
-              type="matrix"
-              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-            />
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
             <feOffset dy="3" />
             <feGaussianBlur stdDeviation="5" />
             <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" />
@@ -329,6 +272,29 @@ import addModule from "../addModules";
 export default {
   components: {
     addModule,
+  },
+  data() {
+    return {
+      backlogItems: ["Apply gredient colours on the dashboard sidenav"],
+      newBacklogItem: "",
+    };
+  },
+  mounted() {
+    if (localStorage.backlogs) {
+      this.backlogItems = JSON.parse(localStorage.getItem("backlogs"));
+    } else {
+      localStorage.setItem("backlogs", JSON.stringify(this.backlogItems));
+    }
+  },
+  methods: {
+    addNewBacklogItem() {
+      console.log(localStorage.backlogs);
+      var backlog = JSON.parse(localStorage.getItem("backlogs"));
+      backlog.unshift(this.newBacklogItem);
+      localStorage.setItem("backlogs", JSON.stringify(backlog));
+      this.backlogItems = JSON.parse(localStorage.getItem("backlogs"));
+      this.newBacklogItem = "";
+    },
   },
 };
 </script>
@@ -353,6 +319,7 @@ export default {
   align-items: center;
   justify-content: center;
   margin-top: 1rem;
+  cursor: pointer;
 }
 .tasks > div {
   /* margin: 0 0.5rem; */
@@ -374,5 +341,17 @@ export default {
   position: absolute;
   bottom: 3rem;
   right: 3rem;
+}
+.text-module {
+  background-color: white;
+  border-radius: 5px;
+  height: 5rem;
+  padding: 1rem;
+  margin-bottom: 3px;
+}
+textarea {
+  height: 100%;
+  outline: none;
+  border: none;
 }
 </style>
