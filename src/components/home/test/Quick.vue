@@ -8,13 +8,7 @@
             <div class="col-md-6">
               <div class="total-modules total d-flex flex-column justify-content-between p-2">
                 <div class="icons d-flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="34"
-                    height="34"
-                    viewBox="0 0 34 34"
-                    fill="none"
-                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
                     <rect opacity="0.1" width="34" height="34" rx="5" fill="white" />
                     <path
                       d="M14.8157 11.7446C14.8157 11.0353 15.0975 10.355 15.5991 9.85337C16.1007 9.35178 16.781 9.06999 17.4903 9.06999C18.1997 9.06999 18.88 9.35178 19.3816 9.85337C19.8832 10.355 20.165 11.0353 20.165 11.7446V13.2317H21.2348V11.7446C21.2348 11.2529 21.138 10.766 20.9498 10.3117C20.7616 9.85737 20.4858 9.44458 20.1381 9.09687C19.7904 8.74916 19.3776 8.47335 18.9233 8.28517C18.469 8.09699 17.9821 8.00014 17.4903 8.00014C16.9986 8.00014 16.5117 8.09699 16.0574 8.28517C15.6031 8.47335 15.1903 8.74916 14.8426 9.09687C14.4949 9.44458 14.2191 9.85737 14.0309 10.3117C13.8427 10.766 13.7458 11.2529 13.7458 11.7446V13.2317H14.8157V11.7446Z"
@@ -31,17 +25,9 @@
               </div>
             </div>
             <div class="col-md-6">
-              <div
-                class="total-modules improvements d-flex flex-column justify-content-between p-2"
-              >
+              <div class="total-modules improvements d-flex flex-column justify-content-between p-2">
                 <div class="icons d-flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="34"
-                    height="34"
-                    viewBox="0 0 34 34"
-                    fill="none"
-                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
                     <rect opacity="0.1" width="34" height="34" rx="5" fill="white" />
                     <path
                       d="M14.8157 11.7446C14.8157 11.0353 15.0975 10.355 15.5991 9.85337C16.1007 9.35178 16.781 9.06999 17.4903 9.06999C18.1997 9.06999 18.88 9.35178 19.3816 9.85337C19.8832 10.355 20.165 11.0353 20.165 11.7446V13.2317H21.2348V11.7446C21.2348 11.2529 21.138 10.766 20.9498 10.3117C20.7616 9.85737 20.4858 9.44458 20.1381 9.09687C19.7904 8.74916 19.3776 8.47335 18.9233 8.28517C18.469 8.09699 17.9821 8.00014 17.4903 8.00014C16.9986 8.00014 16.5117 8.09699 16.0574 8.28517C15.6031 8.47335 15.1903 8.74916 14.8426 9.09687C14.4949 9.44458 14.2191 9.85737 14.0309 10.3117C13.8427 10.766 13.7458 11.2529 13.7458 11.7446V13.2317H14.8157V11.7446Z"
@@ -60,17 +46,9 @@
           </div>
           <div class="row mt-3">
             <div class="col-md-6">
-              <div
-                class="total-modules modules total d-flex flex-column justify-content-between p-2"
-              >
+              <div class="total-modules modules total d-flex flex-column justify-content-between p-2">
                 <div class="icons d-flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="34"
-                    height="34"
-                    viewBox="0 0 34 34"
-                    fill="none"
-                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
                     <rect opacity="0.1" width="34" height="34" rx="5" fill="white" />
                     <path
                       d="M14.8157 11.7446C14.8157 11.0353 15.0975 10.355 15.5991 9.85337C16.1007 9.35178 16.781 9.06999 17.4903 9.06999C18.1997 9.06999 18.88 9.35178 19.3816 9.85337C19.8832 10.355 20.165 11.0353 20.165 11.7446V13.2317H21.2348V11.7446C21.2348 11.2529 21.138 10.766 20.9498 10.3117C20.7616 9.85737 20.4858 9.44458 20.1381 9.09687C19.7904 8.74916 19.3776 8.47335 18.9233 8.28517C18.469 8.09699 17.9821 8.00014 17.4903 8.00014C16.9986 8.00014 16.5117 8.09699 16.0574 8.28517C15.6031 8.47335 15.1903 8.74916 14.8426 9.09687C14.4949 9.44458 14.2191 9.85737 14.0309 10.3117C13.8427 10.766 13.7458 11.2529 13.7458 11.7446V13.2317H14.8157V11.7446Z"
@@ -90,17 +68,9 @@
               </div>
             </div>
             <div class="col-md-6">
-              <div
-                class="total-modules failed improvements d-flex flex-column justify-content-between p-2"
-              >
+              <div class="total-modules failed improvements d-flex flex-column justify-content-between p-2">
                 <div class="icons d-flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="34"
-                    height="34"
-                    viewBox="0 0 34 34"
-                    fill="none"
-                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
                     <rect opacity="0.1" width="34" height="34" rx="5" fill="white" />
                     <path
                       d="M14.8157 11.7446C14.8157 11.0353 15.0975 10.355 15.5991 9.85337C16.1007 9.35178 16.781 9.06999 17.4903 9.06999C18.1997 9.06999 18.88 9.35178 19.3816 9.85337C19.8832 10.355 20.165 11.0353 20.165 11.7446V13.2317H21.2348V11.7446C21.2348 11.2529 21.138 10.766 20.9498 10.3117C20.7616 9.85737 20.4858 9.44458 20.1381 9.09687C19.7904 8.74916 19.3776 8.47335 18.9233 8.28517C18.469 8.09699 17.9821 8.00014 17.4903 8.00014C16.9986 8.00014 16.5117 8.09699 16.0574 8.28517C15.6031 8.47335 15.1903 8.74916 14.8426 9.09687C14.4949 9.44458 14.2191 9.85737 14.0309 10.3117C13.8427 10.766 13.7458 11.2529 13.7458 11.7446V13.2317H14.8157V11.7446Z"
@@ -119,17 +89,9 @@
           </div>
           <div class="row mt-3">
             <div class="col-md-6">
-              <div
-                class="total-modules passed total d-flex flex-column justify-content-between p-2"
-              >
+              <div class="total-modules passed total d-flex flex-column justify-content-between p-2">
                 <div class="icons d-flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="34"
-                    height="34"
-                    viewBox="0 0 34 34"
-                    fill="none"
-                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
                     <rect opacity="0.1" width="34" height="34" rx="5" fill="white" />
                     <path
                       d="M14.8157 11.7446C14.8157 11.0353 15.0975 10.355 15.5991 9.85337C16.1007 9.35178 16.781 9.06999 17.4903 9.06999C18.1997 9.06999 18.88 9.35178 19.3816 9.85337C19.8832 10.355 20.165 11.0353 20.165 11.7446V13.2317H21.2348V11.7446C21.2348 11.2529 21.138 10.766 20.9498 10.3117C20.7616 9.85737 20.4858 9.44458 20.1381 9.09687C19.7904 8.74916 19.3776 8.47335 18.9233 8.28517C18.469 8.09699 17.9821 8.00014 17.4903 8.00014C16.9986 8.00014 16.5117 8.09699 16.0574 8.28517C15.6031 8.47335 15.1903 8.74916 14.8426 9.09687C14.4949 9.44458 14.2191 9.85737 14.0309 10.3117C13.8427 10.766 13.7458 11.2529 13.7458 11.7446V13.2317H14.8157V11.7446Z"
@@ -143,23 +105,14 @@
                   <h3 class="text-white ml-auto">20</h3>
                 </div>
                 <h5 class="text-white">
-                  Total
-                  Passed
+                  Total Passed
                 </h5>
               </div>
             </div>
             <div class="col-md-6">
-              <div
-                class="total-modules untested failed improvements d-flex flex-column justify-content-between p-2"
-              >
+              <div class="total-modules untested failed improvements d-flex flex-column justify-content-between p-2">
                 <div class="icons d-flex">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="34"
-                    height="34"
-                    viewBox="0 0 34 34"
-                    fill="none"
-                  >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
                     <rect opacity="0.1" width="34" height="34" rx="5" fill="white" />
                     <path
                       d="M14.8157 11.7446C14.8157 11.0353 15.0975 10.355 15.5991 9.85337C16.1007 9.35178 16.781 9.06999 17.4903 9.06999C18.1997 9.06999 18.88 9.35178 19.3816 9.85337C19.8832 10.355 20.165 11.0353 20.165 11.7446V13.2317H21.2348V11.7446C21.2348 11.2529 21.138 10.766 20.9498 10.3117C20.7616 9.85737 20.4858 9.44458 20.1381 9.09687C19.7904 8.74916 19.3776 8.47335 18.9233 8.28517C18.469 8.09699 17.9821 8.00014 17.4903 8.00014C16.9986 8.00014 16.5117 8.09699 16.0574 8.28517C15.6031 8.47335 15.1903 8.74916 14.8426 9.09687C14.4949 9.44458 14.2191 9.85737 14.0309 10.3117C13.8427 10.766 13.7458 11.2529 13.7458 11.7446V13.2317H14.8157V11.7446Z"
@@ -185,7 +138,7 @@
 .quick {
   background-color: white;
   border-radius: 5px;
-  height: 85vh;
+  height: 80vh;
   padding: 1rem;
 }
 .total {

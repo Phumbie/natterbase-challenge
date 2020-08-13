@@ -46,7 +46,7 @@ p {
   font-size: 0.9rem;
 }
 .tests {
-  height: 85vh;
+  height: 80vh;
   background-color: white;
 }
 .test-card::-webkit-scrollbar {
@@ -63,7 +63,7 @@ p {
 .test-card {
   background-color: white;
   border-radius: 5px;
-  height: 75vh;
+  height: 70vh;
   padding: 1rem;
   overflow-y: auto;
   overflow-x: hidden;

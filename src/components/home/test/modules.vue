@@ -30,7 +30,7 @@ export default {
 </script>
 <style scoped>
 .modules {
-  max-height: 85vh;
+  max-height: 80vh;
   overflow-y: auto;
   padding: 0 0.5rem;
 }
