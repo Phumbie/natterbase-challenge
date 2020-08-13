@@ -37,4 +37,9 @@ export default {
   grid-template-columns: 20% 1fr 1fr;
   grid-gap: 1rem;
 }
+@media only screen and (max-width: 600px) {
+  .test-box {
+    display: block;
+  }
+}
 </style>
