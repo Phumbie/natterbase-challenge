@@ -265,18 +265,22 @@
         </defs>
       </svg>
     </div>
+    <SuccessAlert :display="success" />
   </div>
 </template>
 <script>
 import addModule from "../addModules";
+import SuccessAlert from "../UI/success";
 export default {
   components: {
     addModule,
+    SuccessAlert,
   },
   data() {
     return {
       backlogItems: ["Apply gredient colours on the dashboard sidenav"],
       newBacklogItem: "",
+      success: false,
     };
   },
   mounted() {
@@ -288,12 +292,17 @@ export default {
   },
   methods: {
     addNewBacklogItem() {
+      this.success = true;
       console.log(localStorage.backlogs);
       var backlog = JSON.parse(localStorage.getItem("backlogs"));
       backlog.unshift(this.newBacklogItem);
       localStorage.setItem("backlogs", JSON.stringify(backlog));
       this.backlogItems = JSON.parse(localStorage.getItem("backlogs"));
       this.newBacklogItem = "";
+
+      setTimeout(() => {
+        this.success = false;
+      }, 2000);
     },
   },
 };
