@@ -39,14 +39,7 @@
           </svg>
         </div>
         <div class="text-module mb-3">
-          <textarea
-            name=""
-            id=""
-            cols="30"
-            rows="10"
-            placeholder="Add a new backlog"
-            v-model="newBacklogItem"
-          ></textarea>
+          <textarea name="" id="" placeholder="Add a new backlog" v-model="newBacklogItem"></textarea>
         </div>
         <div class="module-card">
           <div v-if="backlogItems">
@@ -292,6 +285,7 @@ export default {
     }
   },
   methods: {
+    // to add new items to the backlog
     addNewBacklogItem() {
       this.success = true;
       console.log(localStorage.backlogs);
@@ -363,5 +357,6 @@ textarea {
   height: 100%;
   outline: none;
   border: none;
+  width: 100%;
 }
 </style>
