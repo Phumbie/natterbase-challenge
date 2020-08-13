@@ -49,6 +49,9 @@ p {
   height: 80vh;
   background-color: white;
 }
+/* .test-card div:first-of-type {
+  border-left: 1px solid red;
+} */
 .test-card::-webkit-scrollbar {
   width: 4px !important;
 }
