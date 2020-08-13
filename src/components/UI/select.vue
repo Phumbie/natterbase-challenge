@@ -47,6 +47,7 @@ export default {
   },
   methods: {
     testVal(val) {
+      this.$emit("show");
       if (val === "Pass") {
         this.test = val;
         this.bgColor = `#4dbd98`;
@@ -119,5 +120,6 @@ input {
   padding: 0.5rem;
   border-radius: 5px;
   width: 100%;
+  outline: none;
 }
 </style>

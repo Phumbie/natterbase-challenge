@@ -3,9 +3,14 @@
     <h5 class="my-3">Added Test Case</h5>
     <div class="tests">
       <div class="test-card">
-        <div class="test-cases d-flex justify-content-between my-2" v-for="i in 30" :key="i">
+        <div
+          class="test-cases d-flex justify-content-between my-2"
+          :class="{'apply-border': show}"
+          v-for="i in 30"
+          :key="i"
+        >
           <p class="my-auto">Apply gredient colours on the navigation</p>
-          <Select class="my-auto" />
+          <Select class="my-auto" @show="showBorder" />
         </div>
       </div>
       <div class="test-actions text-center mt-3">
@@ -20,6 +25,17 @@ import Select from "../../UI/select";
 export default {
   components: {
     Select,
+  },
+  data() {
+    return {
+      show: false,
+    };
+  },
+  methods: {
+    showBorder() {
+      console.log("Hi");
+      this.show = true;
+    },
   },
 };
 </script>
@@ -51,6 +67,9 @@ p {
   overflow-y: auto;
   overflow-x: hidden;
 }
+/* .apply-border {
+  border-left: 2px solid #f15832;
+} */
 button {
   width: 40%;
   margin: auto;
