@@ -1,5 +1,5 @@
 <template>
-  <div class="navigation-tab my-2">
+  <div class="navigation-tab my-4">
     <div class="nav-items">
       <div class="nav-item">
         <p>Overview</p>
@@ -68,6 +68,7 @@ export default {
     };
   },
   methods: {
+    //   to display a particular navigation tab
     displayTab(val) {
       if (val === "modules") {
         this.modules = true;

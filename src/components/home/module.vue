@@ -281,6 +281,7 @@ export default {
       backlogItems: ["Apply gredient colours on the dashboard sidenav"],
       newBacklogItem: "",
       success: false,
+      module: "",
     };
   },
   mounted() {

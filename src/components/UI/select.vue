@@ -40,6 +40,7 @@ export default {
     };
   },
   methods: {
+    //   to select background of the select menu
     testVal(val) {
       this.$emit("show");
       if (val === "Pass") {
